@@ -21,5 +21,5 @@ RUN set -ex \
   && curl -fSL -o yarn.js.asc "https://yarnpkg.com/downloads/$YARN_VERSION/yarn-legacy-$YARN_VERSION.js.asc" \
   && gpg --batch --verify yarn.js.asc yarn.js \
   && rm yarn.js.asc \
-  && mv yarn.js /usr/local/bin/yarn \
-  && chmod +x /usr/local/bin/yarn
+  && mv yarn.js /bin/yarn \
+  && chmod +x /bin/yarn
