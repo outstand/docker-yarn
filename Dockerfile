@@ -1,7 +1,7 @@
 FROM alpine:3.7
 MAINTAINER Ryan Schlesinger <ryan@outstand.com>
 
-ENV YARN_VERSION 1.5.1
+ENV YARN_VERSION 1.6.0
 
 RUN apk add --no-cache \
       ca-certificates \
