@@ -1,7 +1,7 @@
 FROM alpine:latest
 LABEL maintainer="Ryan Schlesinger <ryan@outstand.com>"
 
-ENV YARN_VERSION 1.10.1
+ENV YARN_VERSION 1.12.1
 
 RUN apk add --no-cache \
       ca-certificates \
